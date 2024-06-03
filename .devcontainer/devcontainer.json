@@ -1,12 +1,12 @@
 {
     "name": "${localEnv:PROJECT_A_NAME:my_project_name}",
-    // "image": "python:3.10",
+    // "image": "python:3.12",
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
             "ENV_NAME": "${localEnv:PROJECT_A_NAME:my_project_name}",
             "PYTHON_VER": "${localEnv:PYTHON_VER:3.12.3}",
-            "QUARTO_VER": "${localEnv:QUARTO_VER:1.4.553}"
+            "QUARTO_VER": "${localEnv:QUARTO_VER:1.5.40}"
         }
     },
     "customizations": {
